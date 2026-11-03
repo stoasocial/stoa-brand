@@ -1,6 +1,6 @@
 # Logo
 
-The mark is a stoa seen from the front: a flat roof on four columns, standing on a base. The roof is Patina; the columns and base are Ink. It has no pediment: a stoa is a walkway open to everyone, not a temple or a bank.
+The mark is a speech bubble with a stoa inside it: a lintel on three columns, standing on a step. A stoa was the covered colonnade of a Greek city where anyone could walk in and speak, and the bubble says what happens there. The bubble is Patina; the stoa is cut out of it, so the ground shows through. It is one color, so it reads the same on every ground.
 
 ## The suite
 
@@ -11,13 +11,13 @@ The mark is a stoa seen from the front: a flat roof on four columns, standing on
 | File | What it is | Use it |
 |---|---|---|
 | [`stoa-lockup.svg`](../logos/stoa-lockup.svg) | **Primary logo**: the mark, then the wordmark | The default everywhere: site header, documents, slides, social profiles. On Limestone, Marble or any light, calm ground. |
-| [`stoa-lockup-reversed.svg`](../logos/stoa-lockup-reversed.svg) | Primary, for dark grounds | On Night (`bg`, dark), Ink, or dark photography. Lighter Patina roof, Ink-light columns. |
+| [`stoa-lockup-reversed.svg`](../logos/stoa-lockup-reversed.svg) | Primary, for dark grounds | On Night (`bg`, dark), Ink, or dark photography. A lighter Patina bubble and an Ink-light wordmark. |
 | [`stoa-lockup-white.svg`](../logos/stoa-lockup-white.svg) | Primary, one color white | On a Patina fill, or on a dark photo where two colors would clash. |
 | [`stoa-lockup-stacked.svg`](../logos/stoa-lockup-stacked.svg), `…-stacked-reversed.svg` | **Secondary**: the mark above the wordmark | Square and tall spaces: avatars with room for the name, title slides, stickers, merchandise. |
 | [`stoa-mark.svg`](../logos/stoa-mark.svg), `…-reversed.svg` | **Secondary**: the mark alone | Where the name is already present or the space is small: the app header on phones, social avatars, watermarks. |
 | [`stoa-mark-ink.svg`](../logos/stoa-mark-ink.svg), `stoa-mark-white.svg` | The mark in one color | Single-color printing, embossing, engraving, fax-quality reproduction. |
 | [`stoa-wordmark.svg`](../logos/stoa-wordmark.svg) | The wordmark alone | Only where the mark already appears nearby, such as the footer of a page whose header has the mark. Never as the only identifier. |
-| [`stoa-mark-16.svg`](../logos/stoa-mark-16.svg) | **Small-size mark**: three columns on whole pixels | 16px only: tab icons, inline badges. |
+| [`stoa-mark-16.svg`](../logos/stoa-mark-16.svg) | **Small-size mark**: the bubble, lintel, three straight columns and step on whole pixels | 16px only: tab icons, inline badges. |
 
 The wordmark is "Stoa" in Spectral SemiBold, converted to outlines. It is never retyped: live text renders differently from browser to browser.
 
@@ -27,14 +27,15 @@ The wordmark is "Stoa" in Spectral SemiBold, converted to outlines. It is never 
 
 The mark is drawn on a 32-unit grid and spans 28 × 26 units.
 
-- **Roof:** 28 × 4, Patina.
-- **Columns:** four, each 3 × 14, at a 7-unit pitch, starting 2 units in from each end of the roof.
-- **Base:** 28 × 4.
-- **Gaps:** 2 units between the roof and the columns, and between the columns and the base.
+- **Bubble:** 28 × 21, corners of radius 3.5.
+- **Tail:** below the left of the bubble, 5 units wide and 5 deep: a vertical edge 5 units in from the bubble's left, and an edge at 45°.
+- **Lintel:** 20 × 2.5, 4 units below the bubble's top.
+- **Columns:** three, 6 units apart, 8.5 tall, 0.75 below the lintel. Each capital flares from 3.6 wide to 2.4 in one unit; the shaft widens to 2.8 at its foot.
+- **Step:** 22 × 1.5, 0.75 below the columns and 3 above the bubble's bottom.
 
-The roof's height, **R**, is the unit for everything around the mark: R = 4/26 of the mark's height, or about 0.15 of it.
+Everything but the bubble is a hole (`fill-rule="evenodd"`), not white paint.
 
-In the lockup, the wordmark's cap height equals the mark's height, and its baseline sits on the bottom of the base. The wordmark starts 2R after the mark. The primary lockup is about 4.2 times as wide as it is tall, and the stacked lockup about 1.25 times.
+In the lockup, the wordmark's cap height equals the bubble's height (21), and its baseline sits on the bubble's bottom, so the tail hangs below the line like a descender. The wordmark starts 6 units after the mark. The primary lockup is about 3.7 times as wide as it is tall, and the stacked lockup about 1.15 times as wide.
 
 ## Clear space
 
@@ -44,18 +45,18 @@ Keep **half the mark's height** clear on every side, measured from the outermost
 
 | Asset | Digital | Print |
 |---|---|---|
-| Primary lockup | 16px tall (67px wide) | 5 mm tall |
-| Stacked lockup | 32px tall | 10 mm tall |
-| Mark, four columns | 24px wide | 6 mm wide |
-| Mark below 24px | [`stoa-mark-16.svg`](../logos/stoa-mark-16.svg) at exactly 16px | Not used in print |
+| Primary lockup | 20px tall | 6 mm tall |
+| Stacked lockup | 40px tall | 12 mm tall |
+| Mark | 20px tall | 6 mm tall |
+| Mark below 20px | [`stoa-mark-16.svg`](../logos/stoa-mark-16.svg) at exactly 16px | Not used in print |
 
-Below these sizes, the gaps between the columns close up and the wordmark's serifs break apart. Never use anything smaller than 16px.
+Below these sizes the columns run together and the wordmark's serifs break apart. Never use anything smaller than 16px, and never use the master mark between 16px and 20px.
 
 ## Color on grounds
 
 | Ground | Logo |
 |---|---|
-| Limestone `#f3f4f2`, Marble `#ffffff`, any light neutral | Primary: Patina and Ink |
+| Limestone `#f3f4f2`, Marble `#ffffff`, any light neutral | Primary: a Patina mark and an Ink wordmark |
 | Night `#121615`, Ink `#1d2422`, any dark neutral | Reversed |
 | Patina `#2f7d6d` | White, one color |
 | A photograph | White on a dark, calm area, or Ink on a light, calm area. Never across faces, text or busy detail. |
@@ -75,15 +76,15 @@ Below these sizes, the gaps between the columns close up and the wordmark's seri
 ## Don't
 
 - **Stretch, squash or skew it.** Scale it proportionally only.
-- **Rotate or tilt it.** The roof is always level.
-- **Recolor it.** Don't put the roof in Rust or Ochre, use brand colors outside the four approved schemes, or apply gradients.
-- **Swap the two colors.** Patina is always the roof and never the columns.
+- **Rotate or tilt it.** The lintel is always level.
+- **Recolor it.** Don't put the bubble in Rust or Ochre, use brand colors outside the approved schemes, or apply gradients.
+- **Fill in the stoa** or paint it white. It is a hole; on any ground, the ground shows through it.
 - **Add effects:** drop shadows, glows, outlines, bevels or transparency.
 - **Place it on a clashing ground.** That includes the two-color logo on Patina, Rust or Ochre, the primary logo on a dark ground, and any version on a busy pattern or photo detail.
 - **Rearrange it.** Don't put the wordmark before the mark, change the gap, or set the wordmark smaller or larger against the mark.
 - **Retype the wordmark** in another font or weight, or change it to "STOA" or "stoa".
-- **Redraw the mark.** Don't add a pediment, change the number of columns at sizes above 24px, or round the corners.
-- **Enlarge the 16px mark.** Its three columns are only for 16px.
+- **Redraw the mark.** Don't draw it as an outline, add a pediment, change the number of columns, flip the tail to the right, or change the bubble's corners.
+- **Enlarge the 16px mark.** Its straight columns are only for 16px.
 
 ## Favicons
 
@@ -91,7 +92,7 @@ Below these sizes, the gaps between the columns close up and the wordmark's seri
 
 Stoa's tab, home-screen and app icons, and the markup that loads them.
 
-- `favicon.svg` is the primary favicon: the 16px three-column mark, which switches to the reversed colors in a dark browser.
+- `favicon.svg` is the primary favicon: the 16px mark in Patina, which switches to the lighter Patina in a dark browser.
 - `favicon-32.png` and `favicon-16.png` are fallbacks for browsers that don't take SVG icons: a white mark on a Patina tile.
 - `apple-touch-icon.png` (180) and `icon-512.png` are full-bleed Patina squares with the white mark in the central 56%. They are safe for iOS rounding and Android's maskable icons. Don't add corners or padding.
 - Set `theme-color` to `bg`: `#f3f4f2` in light and `#121615` in dark.
