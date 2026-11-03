@@ -6,8 +6,8 @@ Stoa's colors come from its namesake: pale limestone and marble, dark ink, and b
 
 | Name | Token | HEX | RGB | CMYK | Role |
 |---|---|---|---|---|---|
-| Patina | `accent` | `#2F7D6D` | 47, 125, 109 | 62, 0, 13, 51 | The brand's color: the logo's roof, primary actions, links, focus |
-| Ink | `ink` | `#1D2422` | 29, 36, 34 | 19, 0, 6, 86 | All text, the logo's columns and wordmark |
+| Patina | `accent` | `#2F7D6D` | 47, 125, 109 | 62, 0, 13, 51 | The brand's color: the logo's mark, primary actions, links, focus |
+| Ink | `ink` | `#1D2422` | 29, 36, 34 | 19, 0, 6, 86 | All text, and the logo's wordmark |
 
 ## Secondary
 

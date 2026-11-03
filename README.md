@@ -2,7 +2,7 @@
 
 ![Stoa](docs/images/cover.png)
 
-Stoa is a forum no one can censor. Its communities, posts and votes live on Lattice chains, and each reader's own client reads them, checks them and decides what to show. A stoa was the covered colonnade of a Greek city, where anyone could walk in and speak. The brand takes three things from it: a shared roof held up by many independent columns, stone-pale grounds, and bronze that has weathered to patina.
+Stoa is a forum no one can censor. Its communities, posts and votes live on Lattice chains, and each reader's own client reads them, checks them and decides what to show. A stoa was the covered colonnade of a Greek city, where anyone could walk in and speak. The logo puts one in a speech bubble: a public place for talking. The brand also takes stone-pale grounds from it, and bronze that has weathered to patina.
 
 These are Stoa's brand guidelines: the logo, color and typography, with the files to use. This page gives the principles and the voice.
 
